@@ -4,7 +4,7 @@ public class Human04 {
 
 	static public int humanCount = 0;
 	public String name;
-	public static final String GREETING = "こんにちは";
+	public static final String GREETING = "HELLO!";
 
 	public Human04(String name) {
 		this.name = name;
