@@ -23,5 +23,3 @@ public class Human03 {
 		System.out.println(friend + "さん、こんにちは！");
 	}
 }
-
-// test
