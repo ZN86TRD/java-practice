@@ -5,22 +5,24 @@ public class Parts {
 	private int mathscore;
 	private int engscore;
 	
-	
-	Parts(String n) {
+	public void setData(String n) {
 		name = n;
 	}
 	
-	public void display() {
-		System.out.println("名前：" + name);
+	public void setScore(int ms, int es) {
+		mathscore = ms;
+		engscore = es;
 	}
 	
-	public void display2() {
-		System.out.println("名前：" + name + ", " + "英語：" + engscore + ", " + "数学：" + mathscore);
-	}
-	
-	Parts(String n, int ms, int es) {
+	public void setData(String n, int ms, int es) {
 		name = n;
 		mathscore = ms;
 		engscore = es;
+	}
+	
+	public void display() {
+		System.out.println(name + "さんの点数");
+		System.out.println("数学：" + mathscore);
+		System.out.println("英語：" + engscore);
 	}
 }
