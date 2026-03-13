@@ -4,10 +4,9 @@ public class Car1 {
 	private int no;
 	
 	public void setNo(int n) {
-		this.no = n;
+		no = n;
 	}
-	
 	public void display() {
-		System.out.println(no);
+		System.out.println("ナンバーは" + no + "です");
 	}
 }

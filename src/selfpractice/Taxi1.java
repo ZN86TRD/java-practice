@@ -4,13 +4,14 @@ public class Taxi1 extends Car1 {
 	private int price;
 	
 	public void start() {
-		this.price = 420;
+		price = 420;
 	}
 	
 	public void run() {
-		this.price += 80;
+		price += 80;
 	}
+	
 	public void display() {
-		System.out.println("料金は" + this.price + "円です");
+		System.out.println("料金は" + price + "円です");
 	}
 }

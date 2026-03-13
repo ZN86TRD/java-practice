@@ -7,6 +7,10 @@ public class Parents {
 		name = n;
 	}
 	
+	public String getName() {
+		return name;
+	}
+	
 	public void  displayName() {
 		System.out.println(name);
 	}
