@@ -1,5 +1,5 @@
 package selfpractice;
-
+//package→import→class
 import pack.Student8;
 
 public class StuSample8 {
