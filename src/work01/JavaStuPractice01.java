@@ -15,7 +15,7 @@ public class JavaStuPractice01 {
 		
 		
 		Student s3 = new Student();
-		s3.name = "齋藤";
+		s3.name = "藤本";
 		s3.score = 55;
 		s3.age = 21;
 		
