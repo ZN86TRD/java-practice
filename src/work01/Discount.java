@@ -1,6 +1,6 @@
 package work01;
 
-interface  Discount {
+public interface  Discount {
 	int applyDiscount(int amount);
 	String getDiscountName();
 }

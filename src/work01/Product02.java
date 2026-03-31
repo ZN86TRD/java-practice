@@ -22,4 +22,8 @@ public class Product02 {
 	int getQuantity() {
 		return quantity;
 	}
+	
+	int getSubtotal() {
+		return price * quantity;
+	}
 }
