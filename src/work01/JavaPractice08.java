@@ -7,9 +7,9 @@ public class JavaPractice08 {
 		Scanner scanner = new Scanner(System.in);
 		ProductManager03 manager = new ProductManager03();
 		
-		manager.addProduct(new Product03("p001", "ノートPC", 120000, 5));
-		manager.addProduct(new Product03("p002", "マウス", 3000, 10));
-		manager.addProduct(new Product03("p003", "キーボード", 8000, 2));
+		manager.addProduct(new Product03("p001", "ノートPC", 120000, 0));
+		manager.addProduct(new Product03("p002", "マウス", 3000, 15));
+		manager.addProduct(new Product03("p003", "キーボード", 8000, 3));
 		
 		boolean running = true;
 		
